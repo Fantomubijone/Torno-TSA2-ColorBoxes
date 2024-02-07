@@ -1,0 +1,102 @@
+.day-button {
+  display: block;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
+  padding: 0;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;  
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.day-box {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  border: 10px solid;
+  border-radius: 20px;
+  margin-left: 350px;
+  top: -420px;
+  transition: top 1s ease, background-color 1s ease;
+}
+
+.day-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#mon {
+  border-color: purple;
+  background-color: purple;
+}
+
+#tue {
+  border-color: pink;
+  background-color: pink;
+}
+
+#wed {
+  border-color: blue;
+  background-color: blue;
+}
+
+#thur {
+  border-color: green;
+  background-color: green;
+}
+
+#fri {
+  border-color: yellow;
+  background-color: yellow;
+}
+
+#sat {
+  border-color: orange;
+  background-color: orange;
+}
+
+#sun {
+  border-color: red;
+  background-color: red;
+}
+
+#MondayBtn {
+  background-color: purple;
+}
+
+#TuesdayBtn {
+  background-color: pink;
+}
+
+#WednesdayBtn {
+  background-color: blue;
+}
+
+#ThursdayBtn {
+  background-color: green;
+}
+
+#FridayBtn {
+  background-color: yellow;
+}
+
+#SaturdayBtn {
+  background-color: orange;
+}
+
+#SundayBtn {
+  background-color: red;
+}
